@@ -5,6 +5,14 @@ A process of dependent quantile pyramids (DQP) is a Bayesian nonparametric appro
 This repository contains code for implementing Markov Chain Monte Carlo (MCMC) simulations for simultaneous quantile regression using DQP.
 To accommodate diverse modeling needs with DQP, various code versions have been provided and uploaded.
 
+[ver 1. Canonical DQP](https://github.com/hyoin-an/DQP#ver-1-canonical-dqp)
+
+[ver2.0 One-dimensional DQP with linear interpolation](link)
+
+[Text](link)
+
+[Text](link)
+
 ### ver 1. Canonical DQP
 This is the simplest version of DQP. Conditional and dependent quantile pyramids are constructed at all available data points.
 
@@ -14,7 +22,7 @@ This is the simplest version of DQP. Conditional and dependent quantile pyramids
 *	Nonparametric model for sigma_x with a log-normal proposal with dependence
 
 
-### ver2.0 One-dimensional DQP with linear interpolation
+### ver 2. One-dimensional DQP with linear interpolation
 
 ##### Log-linear modeling for sigma_x
 * One-dimensional DQP
@@ -32,7 +40,7 @@ This is the simplest version of DQP. Conditional and dependent quantile pyramids
 * Nonparametric model for sigma_x with a log-normal proposal with dependence
 * Pyramid proposal
 
-### ver3.0 Two-dimensional DQP with bilinear interpolation
+### ver 3. Two-dimensional DQP with bilinear interpolation
 
 ##### Log-linear modeling for sigma_x
 * Two-dimensional DQP
@@ -51,7 +59,7 @@ This is the simplest version of DQP. Conditional and dependent quantile pyramids
 * Pyramid proposal
 
 
-### ver4.0 Location/Scale family of a One-dimensional DQP
+### ver 4. Location/Scale family of a One-dimensional DQP
 
 ##### Log-linear modeling for sigma_x
 *	Extension of One dimensional DQP (ver2.0)
