@@ -5,7 +5,7 @@ A process of dependent quantile pyramids (DQP) is a Bayesian nonparametric appro
 This repository contains code for implementing Markov Chain Monte Carlo (MCMC) simulations for simultaneous quantile regression using a binary DQP.
 To accommodate diverse modeling needs with DQP, various code versions have been developed.
 
-Version 1 is the code for the canonical version of DQP. The code for versions 2, 3, and 4 will be uploaded soon. More examples and results to come as well for the other versions. 
+Version 1 is the code for the canonical version of DQP. More examples and results to come for the other versions. 
 
 #### Table of contents 
 
