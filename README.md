@@ -7,11 +7,11 @@ To accommodate diverse modeling needs with DQP, various code versions have been 
 
 [ver 1. Canonical DQP](https://github.com/hyoin-an/DQP#ver-1-canonical-dqp)
 
-[ver2.0 One-dimensional DQP with linear interpolation](link)
+[ver 2. One-dimensional DQP with linear interpolation](https://github.com/hyoin-an/DQP#ver-2-one-dimensional-dqp-with-linear-interpolation)
 
-[Text](link)
+[ver 3. Two-dimensional DQP with bilinear interpolation](link)
 
-[Text](link)
+[ver4.1 Location/Scale family of a Two-dimensional DQP]([link](https://github.com/hyoin-an/DQP#ver41-locationscale-family-of-a-two-dimensional-dqp))
 
 ### ver 1. Canonical DQP
 This is the simplest version of DQP. Conditional and dependent quantile pyramids are constructed at all available data points.
@@ -59,7 +59,7 @@ This is the simplest version of DQP. Conditional and dependent quantile pyramids
 * Pyramid proposal
 
 
-### ver 4. Location/Scale family of a One-dimensional DQP
+### ver 4.0 Location/Scale family of a One-dimensional DQP
 
 ##### Log-linear modeling for sigma_x
 *	Extension of One dimensional DQP (ver2.0)
