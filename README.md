@@ -23,7 +23,8 @@ This is the simplest version of DQP. Conditional and dependent quantile pyramids
 *	Nonparametric model for sigma_x with a log-normal proposal with dependence
 
 Simulation studies and an illustrative application of this version of DQP can be referenced in the paper below.\
-Reference: An, H., & MacEachern, S. N. (2023). A Process of Dependent Quantile Pyramids. arXiv preprint arXiv:2306.02126. [link](https://doi.org/10.48550/arXiv.2306.02126)
+
+*Reference*: An, H., & MacEachern, S. N. (2023). A Process of Dependent Quantile Pyramids. arXiv preprint arXiv:2306.02126. [link](https://doi.org/10.48550/arXiv.2306.02126)
 
 ### ver 2. One-dimensional DQP with linear interpolation
 
