@@ -63,7 +63,7 @@ This is the simplest version of DQP. Conditional and dependent quantile pyramids
 ### ver 4.0 Location/Scale family of a One-dimensional DQP
 
 ##### Log-linear modeling for sigma_x
-*	Extension of One dimensional DQP (ver2.0)
+*	Extension of One dimensional DQP (ver 2)
 *	Linear interpolation across X
 *	Normal tail for transformation
 *	Linear regression model for mu_x
@@ -72,7 +72,7 @@ This is the simplest version of DQP. Conditional and dependent quantile pyramids
 *	One predictor is designated for whose space QPs are constructed; Location/scale shift for all the other predictors
   
 ##### Nonparametric modeling for sigma_x
-*	Extension of One dimensional DQP (ver2.1)
+*	Extension of One dimensional DQP (ver 2)
 *	Linear interpolation across X
 *	Normal tail for transformation
 *	Linear regression model for mu_x
@@ -84,7 +84,7 @@ This is the simplest version of DQP. Conditional and dependent quantile pyramids
 ### ver4.1 Location/Scale family of a Two-dimensional DQP
 
 ##### Log-linear modeling for sigma_x
-* Extension of One dimensional DQP (ver3.1)
+* Extension of One dimensional DQP (ver 3)
 * Bilinear interpolation across X
 * Normal tail for transformation
 * Linear regression model for mu_x
@@ -94,7 +94,7 @@ This is the simplest version of DQP. Conditional and dependent quantile pyramids
 
 
 ##### Nonparametric modeling for sigma_x
-* Extension of One dimensional DQP (ver3.1)
+* Extension of One dimensional DQP (ver 3)
 * Bilinear interpolation across X
 * Normal tail for transformation
 * Linear regression model for mu_x
