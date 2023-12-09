@@ -49,6 +49,8 @@ Simulation studies and an illustrative application of this version of DQP can be
 * Nonparametric model for sigma_x with a log-normal proposal with dependence
 * Pyramid proposal
 
+---
+
 ### ver 3. Two-dimensional DQP with bilinear interpolation
 
 ##### Log-linear modeling for sigma_x
@@ -67,6 +69,7 @@ Simulation studies and an illustrative application of this version of DQP can be
 * Nonparametric model for sigma_x with a log-normal proposal with dependence
 * Pyramid proposal
 
+---
 
 ### ver 4.0 Location/Scale family of a One-dimensional DQP
 
