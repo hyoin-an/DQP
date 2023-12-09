@@ -2,7 +2,7 @@
 
 A process of dependent quantile pyramids (DQP) is a Bayesian nonparametric approach that offers a flexible modeling framework for the simultaneous estimation of multiple quantile regression curves. 
 
-This repository contains code for implementing Markov Chain Monte Carlo (MCMC) simulations for simultaneous quantile regression using DQP.
+This repository contains code for implementing Markov Chain Monte Carlo (MCMC) simulations for simultaneous quantile regression using a binary DQP.
 To accommodate diverse modeling needs with DQP, various code versions have been provided and uploaded.
 
 #### Table of contents 
