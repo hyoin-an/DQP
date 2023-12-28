@@ -24,7 +24,16 @@ This is the simplest version of DQP. Conditional and dependent quantile pyramids
 *	Log-linear regression model for sigma_x
 *	Nonparametric model for sigma_x with a log-normal proposal with dependence
 
-To use DQP, hyperparameters for the Gaussian process need to be specified. The distance parameter `phi` decides the degree of correlation between the data points. 
+To use DQP, hyperparameters and initial values of the parameters are required. Consider the following example:
+```
+n = 300
+rep_seq = sort(sample(1:25, n, replace=T))
+set.seed(156); x1 = 1:5;  x2 = 1:5
+x = as.matrix(expand.grid(x1=x1, x2=x2))[rep_seq,]
+y = x[,1] + x[,2] + rnorm(n) 
+```
+
+First, hyperparameters for the Gaussian process need to be specified. The distance parameter `phi` decides the degree of correlation between the data points. 
 
 ```
 # Hyperparameters for the Gaussian process
@@ -37,7 +46,7 @@ phi = 2.5
 Sigma = sigsq * exp(-abs(as.matrix(dist(x_prime)))^r/phi) + diag(rep(tausq), nrow(x_prime))
 ```
 
-Next, the hyperparameters for prior distributions can be specified as below.
+Also, the hyperparameters for prior distributions can be specified as below.
 ```
 ols_res = lm(y ~ x[,1] + x[,2])
 mu_0 = ols_res$coef
@@ -46,7 +55,7 @@ mu_1 = rep(0, nrow(x_prime))
 Sigma_1 = diag(rep(0.1, nrow(x_prime)))
 ```
 
-The parameters for the proposal distribution should be pre-determined.
+Next, the parameters for the proposal distribution should be pre-determined.
 ```
 Sigma_beta = Sigma_beta = vcov(ols_res)
 Sigma_eta = Sigma_1/3
